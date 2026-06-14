@@ -213,11 +213,11 @@ PYTHONPATH=. jupyter nbconvert --to notebook --execute --inplace notebooks/03_de
 
 COP-3442 Prompt Engineering · Artificial Intelligence Engineering · Bahçeşehir University
 
-| Member | Department |
-|---|---|
-| Ayhan Gurbangeldiyev | AI Engineering |
-| Naz Tıkıloğlu | AI Engineering |
-| Leyla Asya Kalecik | AI Engineering |
+| Member | GitHub | Department |
+|---|---|---|
+| Ayhan Gurbangeldiyev | [@ayhan-gurbangeldiyev](https://github.com/ayhan-gurbangeldiyev) | AI Engineering |
+| Naz Tıkıloğlu | [@naztikiloglu](https://github.com/naztikiloglu) | AI Engineering |
+| Leyla Asya Kalecik | [@asyakal](https://github.com/asyakal) | AI Engineering |
 
 ---
 
