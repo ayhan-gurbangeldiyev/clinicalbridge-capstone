@@ -1,0 +1,28 @@
+{
+  "patient_id": "PT-002",
+  "chief_complaint": "Routine check-in. Feeling well overall.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-08",
+      "entry": "Feeling pretty good. No headaches. Taking my medication every morning with breakfast."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "95%",
+    "notes": "Occasionally misses a dose if traveling. Uses a pill organizer."
+  },
+  "lifestyle": {
+    "diet": "Balanced, tries to limit salt",
+    "exercise": "Walks 30 minutes daily",
+    "alcohol": "Rare, social occasions only",
+    "smoking": "Never",
+    "stress": "Low to moderate"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": false,
+    "heart_disease": false,
+    "stroke": false
+  },
+  "patient_concerns": "No major concerns. Wants to eventually reduce medication if blood pressure stays controlled."
+}

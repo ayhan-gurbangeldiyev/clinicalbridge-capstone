@@ -1,0 +1,53 @@
+{
+  "patient_id": "PT-001",
+  "demographics": {
+    "name": "Robert Harmon",
+    "age": 64,
+    "sex": "M",
+    "dob": "1961-03-14",
+    "weight_kg": 88.5,
+    "height_cm": 178
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2018-06", "status": "active"},
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2020-11", "status": "active"},
+    {"icd10": "E78.5", "label": "Hyperlipidemia", "onset": "2019-02", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dose": "10mg", "frequency": "QD", "prescribed": "2018-07", "status": "active"},
+    {"name": "Metformin", "dose": "500mg", "frequency": "BID", "prescribed": "2020-11", "status": "active"},
+    {"name": "Atorvastatin", "dose": "20mg", "frequency": "QHS", "prescribed": "2019-03", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-10-15",
+      "results": {"Na": 139, "K": 4.2, "Cr": 1.0, "BUN": 18, "Glucose": 112}
+    },
+    {
+      "test": "HbA1c",
+      "date": "2025-10-15",
+      "results": {"HbA1c": 7.1}
+    },
+    {
+      "test": "Lipid panel",
+      "date": "2025-10-15",
+      "results": {"LDL": 98, "HDL": 45, "TG": 142}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-15",
+      "provider": "Dr. S. Patel",
+      "note": "S: Patient presents for routine follow-up. Reports occasional headaches, denies chest pain or shortness of breath. States he has been taking medications as prescribed. O: BP 138/88 mmHg (right arm, seated), HR 74 bpm, SpO2 98%. Weight 88.5 kg. A: Hypertension - adequately controlled on current regimen. Diabetes - HbA1c slightly elevated, adjust diet counseling. P: Continue Lisinopril 10mg QD. Recheck BP in 4 weeks via RPM. Patient instructed on low-sodium diet."
+    },
+    {
+      "date": "2025-07-02",
+      "provider": "Dr. S. Patel",
+      "note": "S: Follow-up for hypertension management. Patient complains of dry, persistent cough for the past 3 weeks. Denies fever or URI symptoms. Reports cough started about 2 weeks after last Lisinopril dose increase. O: BP 142/90, HR 78. Lungs clear. A: Likely ACE inhibitor-induced cough secondary to Lisinopril. P: Discussed switching to ARB if cough persists. Patient prefers to continue Lisinopril for now."
+    }
+  ],
+  "allergies": [
+    {"allergen": "Penicillin", "reaction": "Urticaria", "severity": "moderate"}
+  ]
+}

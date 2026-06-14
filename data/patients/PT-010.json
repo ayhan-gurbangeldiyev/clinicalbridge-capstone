@@ -1,0 +1,44 @@
+{
+  "patient_id": "PT-010",
+  "demographics": {
+    "name": "Shirley Nakamura",
+    "age": 77,
+    "sex": "F",
+    "dob": "1948-05-12",
+    "weight_kg": 58.5,
+    "height_cm": 155
+  },
+  "problem_list": [
+    {"icd10": "I50.9", "label": "Heart failure, unspecified", "onset": "2019-08", "status": "active"},
+    {"icd10": "I48.0", "label": "Paroxysmal atrial fibrillation", "onset": "2018-11", "status": "active"},
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2008-02", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Furosemide", "dose": "40mg", "frequency": "BID", "prescribed": "2019-09", "status": "active"},
+    {"name": "Bisoprolol", "dose": "5mg", "frequency": "QD", "prescribed": "2019-09", "status": "active"},
+    {"name": "Sacubitril/Valsartan", "dose": "24/26mg", "frequency": "BID", "prescribed": "2020-01", "status": "active"},
+    {"name": "Warfarin", "dose": "3mg", "frequency": "QD", "prescribed": "2018-11", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "INR",
+      "date": "2025-11-03",
+      "results": {"INR": 2.4}
+    },
+    {
+      "test": "BMP",
+      "date": "2025-11-03",
+      "results": {"Na": 135, "K": 4.7, "Cr": 1.3, "BUN": 36, "eGFR": 40}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-11-03",
+      "provider": "Dr. A. Reyes",
+      "note": "S: Stable HF follow-up. Patient reports feeling tired more easily than usual. No significant weight change. O: BP 110/70. HR 72. Weight 58.5 kg. Trace ankle edema. A: HFrEF - clinically stable but reports fatigue. INR therapeutic. P: Continue regimen. Reinforce daily weight monitoring. If weight increases >1.5 kg from 58.5 kg baseline, adjust diuretics per protocol."
+    }
+  ],
+  "allergies": [
+    {"allergen": "ACE inhibitors", "reaction": "Cough", "severity": "mild"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "patient_id": "PT-003",
+  "demographics": {
+    "name": "David Okafor",
+    "age": 58,
+    "sex": "M",
+    "dob": "1967-11-05",
+    "weight_kg": 95.2,
+    "height_cm": 182
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2016-04", "status": "active"},
+    {"icd10": "F17.210", "label": "Nicotine dependence, cigarettes", "onset": "2016-04", "status": "active"},
+    {"icd10": "E66.9", "label": "Obesity", "onset": "2016-04", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Hydrochlorothiazide", "dose": "25mg", "frequency": "QD", "prescribed": "2016-05", "status": "active"},
+    {"name": "Lisinopril", "dose": "20mg", "frequency": "QD", "prescribed": "2018-02", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-09-10",
+      "results": {"Na": 138, "K": 3.7, "Cr": 1.1, "BUN": 22, "Glucose": 105}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-09-10",
+      "provider": "Dr. T. Nguyen",
+      "note": "S: Follow-up hypertension. Patient admits inconsistent medication adherence due to work schedule. Smokes 10 cigarettes/day. O: BP 152/96 seated, 148/94 after 5 min rest. Weight 95.2 kg (+2 kg since last visit). A: Hypertension suboptimally controlled. Contributing factors: medication non-adherence, smoking, obesity. P: Reinforce medication importance. Discussed smoking cessation options. Referred to dietitian."
+    }
+  ],
+  "allergies": []
+}

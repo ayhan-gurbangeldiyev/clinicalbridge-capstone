@@ -1,0 +1,29 @@
+{
+  "patient_id": "PT-012",
+  "demographics": {
+    "name": "Amara Diallo",
+    "age": 52,
+    "sex": "F",
+    "dob": "1973-01-14",
+    "weight_kg": 79.0,
+    "height_cm": 168
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "unknown", "status": "active"},
+    {"icd10": "Z87.891", "label": "Personal history of nicotine dependence", "onset": "unknown", "status": "historical"}
+  ],
+  "medications": [
+    {"name": "Unknown antihypertensive", "dose": "unknown", "frequency": "QD", "prescribed": "unknown", "status": "active - patient transferred from abroad, records pending"}
+  ],
+  "labs": [],
+  "visit_notes": [
+    {
+      "date": "2025-11-10",
+      "provider": "Dr. T. Nguyen",
+      "note": "S: New patient, transfer of care from overseas. Patient reports history of high blood pressure for approximately 5 years. Cannot recall medication names. States she was on one pill per day. No records available at this time. Reports occasional headaches. Denies chest pain. O: BP 162/98. HR 82. Weight 79 kg. A: Hypertension - uncontrolled, likely undertreated given records unavailability. P: Start Amlodipine 5mg QD empirically. Order baseline labs. Request overseas records. Enroll in RPM. Patient to bring any medication bottles at next visit."
+    }
+  ],
+  "allergies": [
+    {"allergen": "Unknown - patient reports reaction to an antibiotic years ago, type unknown", "reaction": "unknown", "severity": "unknown"}
+  ]
+}

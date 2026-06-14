@@ -1,0 +1,32 @@
+{
+  "patient_id": "PT-010",
+  "chief_complaint": "Getting tired faster than before. A little more ankle swelling.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-10",
+      "entry": "Felt more tired than usual during my afternoon walk. Had to stop earlier."
+    },
+    {
+      "date": "2026-01-12",
+      "entry": "Ankles a bit puffy in the evening. Not alarming but noticeable. Weight looks stable."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "95%",
+    "notes": "Generally good. Occasionally misses morning Furosemide if she forgets. Takes Warfarin very carefully due to INR checks."
+  },
+  "lifestyle": {
+    "diet": "Low sodium, consistent vitamin K intake for Warfarin stability",
+    "exercise": "Short walks, limited by fatigue",
+    "alcohol": "None",
+    "smoking": "Never",
+    "stress": "Low - lives with family who assists"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": false,
+    "heart_disease": true,
+    "stroke": false
+  },
+  "patient_concerns": "Worried about the fatigue increasing. Wants to know if it is the atrial fibrillation causing it."
+}

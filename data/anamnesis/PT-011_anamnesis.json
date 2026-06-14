@@ -1,0 +1,39 @@
+{
+  "patient_id": "PT-011",
+  "chief_complaint": "Blood pressure still high even though I take all my pills every day. Very frustrating.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-08",
+      "entry": "Took all three blood pressure pills this morning like always. BP machine at home still says 155/92. I don't understand."
+    },
+    {
+      "date": "2026-01-10",
+      "entry": "Took my medications. I always take them. My back hurts today, took some ibuprofen."
+    },
+    {
+      "date": "2026-01-12",
+      "entry": "Still high at home. I am 100% taking my pills. Maybe the monitor is broken."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "100%",
+    "notes": "Patient insists on full adherence. States he never misses a dose. However, pharmacy refill records show Glipizide prescription filled only 3 times in 6 months (should be 6). Amlodipine and Valsartan refills also irregular.",
+    "sensitive_flags": ["ADHERENCE_DISCREPANCY"]
+  },
+  "lifestyle": {
+    "diet": "Reports eating healthy but mentions eating out 3-4 times per week",
+    "exercise": "Limited by back pain - mostly sedentary",
+    "alcohol": "Reports 1-2 drinks per week but neighbor mentioned seeing him regularly at a bar",
+    "smoking": "Never",
+    "stress": "Moderate - retirement adjustment"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": true,
+    "heart_disease": false,
+    "stroke": false,
+    "notes": "Both parents had hypertension"
+  },
+  "patient_concerns": "Very frustrated that medications are not working. Wants to try something different. Does not want to discuss adherence - gets defensive when asked.",
+  "sensitive_flags": ["POSSIBLE_NON_ADHERENCE", "DEFENSIVE_RESPONSE_TO_ADHERENCE_QUERY"]
+}

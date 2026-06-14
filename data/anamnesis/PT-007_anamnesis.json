@@ -1,0 +1,32 @@
+{
+  "patient_id": "PT-007",
+  "chief_complaint": "Weight has been creeping up and blood sugar feels harder to control lately.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-08",
+      "entry": "Gained another 2 kg this month. Blood sugar running around 155-170 fasting. Taking my meds."
+    },
+    {
+      "date": "2026-01-12",
+      "entry": "Tried cutting back on bread this week. Blood sugar a bit better, around 145."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "90%",
+    "notes": "Generally good compliance. Reports taking medications with meals as prescribed."
+  },
+  "lifestyle": {
+    "diet": "Trying to improve but struggles - lots of carbohydrates in traditional family meals",
+    "exercise": "Light walking, trying to increase",
+    "alcohol": "None",
+    "smoking": "Never",
+    "stress": "Moderate"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": true,
+    "heart_disease": false,
+    "stroke": false
+  },
+  "patient_concerns": "Worried about weight gain affecting diabetes control. Wants dietary guidance."
+}

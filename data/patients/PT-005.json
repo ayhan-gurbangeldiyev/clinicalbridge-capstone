@@ -1,0 +1,47 @@
+{
+  "patient_id": "PT-005",
+  "demographics": {
+    "name": "James Whitfield",
+    "age": 55,
+    "sex": "M",
+    "dob": "1970-04-22",
+    "weight_kg": 98.0,
+    "height_cm": 180
+  },
+  "problem_list": [
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2017-03", "status": "active"},
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2017-03", "status": "active"},
+    {"icd10": "E78.5", "label": "Hyperlipidemia", "onset": "2018-01", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Metformin", "dose": "1000mg", "frequency": "BID", "prescribed": "2017-04", "status": "active"},
+    {"name": "Glipizide", "dose": "5mg", "frequency": "QD", "prescribed": "2019-06", "status": "active"},
+    {"name": "Lisinopril", "dose": "10mg", "frequency": "QD", "prescribed": "2017-04", "status": "active"},
+    {"name": "Rosuvastatin", "dose": "10mg", "frequency": "QHS", "prescribed": "2018-02", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "HbA1c",
+      "date": "2025-10-28",
+      "results": {"HbA1c": 7.4}
+    },
+    {
+      "test": "BMP",
+      "date": "2025-10-28",
+      "results": {"Na": 138, "K": 4.1, "Cr": 1.0, "BUN": 19, "Glucose": 138}
+    },
+    {
+      "test": "Fasting lipids",
+      "date": "2025-10-28",
+      "results": {"LDL": 88, "HDL": 42, "TG": 168}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-28",
+      "provider": "Dr. A. Reyes",
+      "note": "S: Diabetes management visit. Patient reports eating out more frequently due to travel for work. States he has been checking glucose at home and values range 130-180 fasting. Took a planned vacation last week and intentionally ate more carbohydrates. Reports he increased his walk to 30 min daily since last visit. O: BP 134/84. Weight 98.0 kg. Fasting glucose 138. A: T2DM - suboptimal control but patient has been more active. Dietary indiscretion contributing. HbA1c 7.4 (up from 7.1 six months ago). P: Intensify dietary counseling. Continue current meds. RPM glucose monitoring - alert threshold set at >180 mg/dL fasting. Recheck HbA1c in 3 months."
+    }
+  ],
+  "allergies": []
+}

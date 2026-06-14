@@ -1,0 +1,36 @@
+{
+  "patient_id": "PT-004",
+  "demographics": {
+    "name": "Susan Caldwell",
+    "age": 69,
+    "sex": "F",
+    "dob": "1956-07-19",
+    "weight_kg": 72.3,
+    "height_cm": 165
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2014-01", "status": "active"},
+    {"icd10": "G43.909", "label": "Migraine", "onset": "2012-05", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Metoprolol succinate", "dose": "50mg", "frequency": "QD", "prescribed": "2014-02", "status": "active"},
+    {"name": "Amlodipine", "dose": "5mg", "frequency": "QD", "prescribed": "2017-08", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-10-20",
+      "results": {"Na": 140, "K": 4.0, "Cr": 0.8, "BUN": 14, "Glucose": 94}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-20",
+      "provider": "Dr. S. Patel",
+      "note": "S: Hypertension follow-up. BP well controlled per home monitoring. Migraine frequency reduced to 1-2 per month with current beta-blocker. O: BP 126/80. HR 62. A: Hypertension controlled. Migraine management adequate. P: Continue current regimen. RPM follow-up in 30 days."
+    }
+  ],
+  "allergies": [
+    {"allergen": "NSAIDs", "reaction": "Worsening migraines", "severity": "moderate"}
+  ]
+}

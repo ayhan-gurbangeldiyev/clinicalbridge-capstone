@@ -1,0 +1,34 @@
+{
+  "patient_id": "PT-012",
+  "chief_complaint": "Headaches and feeling hot in the face. Blood pressure machine at pharmacy says it's high.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-10",
+      "entry": "Headache again today. Used the BP machine at the pharmacy - it said 165/100. Took my white pill."
+    },
+    {
+      "date": "2026-01-12",
+      "entry": "Still headaches. Not sure if the pill I'm taking is the right one. The bottle label is in French."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "90%",
+    "notes": "Patient is taking a medication from her home country but cannot identify the name. Label is in French. She believes it is an antihypertensive. She is also now taking Amlodipine 5mg prescribed at last visit. May be on two antihypertensives simultaneously - unclear."
+  },
+  "lifestyle": {
+    "diet": "Traditional West African diet - high in vegetables and legumes, moderate sodium",
+    "exercise": "Walks to work daily, approximately 20 minutes each way",
+    "alcohol": "None",
+    "smoking": "Never",
+    "stress": "High - recent immigration, language barriers, unfamiliar healthcare system"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": false,
+    "heart_disease": false,
+    "stroke": false,
+    "notes": "Mother has high blood pressure. No other details available."
+  },
+  "patient_concerns": "Worried about headaches. Unsure if she is taking the right medications. Language barrier makes communication difficult. Would like a translator for next appointment.",
+  "sensitive_flags": ["LANGUAGE_BARRIER", "POSSIBLE_DUPLICATE_MEDICATION", "IMMIGRATION_STRESS"]
+}

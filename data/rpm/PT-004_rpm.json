@@ -1,0 +1,192 @@
+{
+  "patient_id": "PT-004",
+  "device": {
+    "type": "multiparameter_rpm_hub",
+    "manufacturer": "SimuHealth",
+    "model": "SIM-100"
+  },
+  "sampling": "daily",
+  "baseline_thresholds": {
+    "systolic_bp": [
+      110.0,
+      145.0
+    ],
+    "diastolic_bp": [
+      70.0,
+      95.0
+    ],
+    "heart_rate": [
+      50.0,
+      100.0
+    ],
+    "spo2": [
+      93.0,
+      100.0
+    ],
+    "weight_kg": [
+      60.0,
+      95.0
+    ],
+    "glucose_mgdl": [
+      80.0,
+      180.0
+    ]
+  },
+  "readings": [
+    {
+      "timestamp": "2026-01-16T06:00:00",
+      "values": {
+        "systolic_bp": 127.1,
+        "diastolic_bp": 82.9,
+        "heart_rate": 73.7,
+        "spo2": 96.5,
+        "weight_kg": 78.5,
+        "glucose_mgdl": 133.0
+      }
+    },
+    {
+      "timestamp": "2026-01-17T06:00:00",
+      "values": {
+        "systolic_bp": 126.6,
+        "diastolic_bp": 82.1,
+        "heart_rate": 74.3,
+        "spo2": 96.7,
+        "weight_kg": 78.3,
+        "glucose_mgdl": 132.3
+      }
+    },
+    {
+      "timestamp": "2026-01-18T06:00:00",
+      "values": {
+        "systolic_bp": 127.2,
+        "diastolic_bp": 82.0,
+        "heart_rate": 76.0,
+        "spo2": 96.6,
+        "weight_kg": 77.7,
+        "glucose_mgdl": 132.9
+      }
+    },
+    {
+      "timestamp": "2026-01-19T06:00:00",
+      "values": {
+        "systolic_bp": 127.8,
+        "diastolic_bp": 81.8,
+        "heart_rate": 76.0,
+        "spo2": 96.4,
+        "weight_kg": 77.8,
+        "glucose_mgdl": 132.6
+      }
+    },
+    {
+      "timestamp": "2026-01-20T06:00:00",
+      "values": {
+        "systolic_bp": 126.7,
+        "diastolic_bp": 81.9,
+        "heart_rate": 73.8,
+        "spo2": 96.5,
+        "weight_kg": 77.0,
+        "glucose_mgdl": 130.6
+      }
+    },
+    {
+      "timestamp": "2026-01-21T06:00:00",
+      "values": {
+        "systolic_bp": 128.0,
+        "diastolic_bp": 82.1,
+        "heart_rate": 75.4,
+        "spo2": 96.4,
+        "weight_kg": 77.5,
+        "glucose_mgdl": 132.4
+      }
+    },
+    {
+      "timestamp": "2026-01-22T06:00:00",
+      "values": {
+        "systolic_bp": 128.2,
+        "diastolic_bp": 81.9,
+        "heart_rate": 74.8,
+        "spo2": 96.4,
+        "weight_kg": 76.5,
+        "glucose_mgdl": 131.6
+      }
+    },
+    {
+      "timestamp": "2026-01-23T06:00:00",
+      "values": {
+        "systolic_bp": 127.8,
+        "diastolic_bp": 82.1,
+        "heart_rate": 75.7,
+        "spo2": 96.5,
+        "weight_kg": 77.3,
+        "glucose_mgdl": 127.1
+      }
+    },
+    {
+      "timestamp": "2026-01-24T06:00:00",
+      "values": {
+        "systolic_bp": 126.6,
+        "diastolic_bp": 83.1,
+        "heart_rate": 76.2,
+        "spo2": 96.5,
+        "weight_kg": 78.2,
+        "glucose_mgdl": 130.5
+      }
+    },
+    {
+      "timestamp": "2026-01-25T06:00:00",
+      "values": {
+        "systolic_bp": 126.8,
+        "diastolic_bp": 81.9,
+        "heart_rate": 74.4,
+        "spo2": 96.7,
+        "weight_kg": 78.1,
+        "glucose_mgdl": 132.2
+      }
+    },
+    {
+      "timestamp": "2026-01-26T06:00:00",
+      "values": {
+        "systolic_bp": 128.3,
+        "diastolic_bp": 82.1,
+        "heart_rate": 74.2,
+        "spo2": 96.3,
+        "weight_kg": 78.1,
+        "glucose_mgdl": 132.3
+      }
+    },
+    {
+      "timestamp": "2026-01-27T06:00:00",
+      "values": {
+        "systolic_bp": 127.3,
+        "diastolic_bp": 82.7,
+        "heart_rate": 74.0,
+        "spo2": 96.7,
+        "weight_kg": 78.3,
+        "glucose_mgdl": 132.9
+      }
+    },
+    {
+      "timestamp": "2026-01-28T06:00:00",
+      "values": {
+        "systolic_bp": 128.2,
+        "diastolic_bp": 83.1,
+        "heart_rate": 73.6,
+        "spo2": 96.6,
+        "weight_kg": 77.1,
+        "glucose_mgdl": 132.6
+      }
+    },
+    {
+      "timestamp": "2026-01-29T06:00:00",
+      "values": {
+        "systolic_bp": 128.1,
+        "diastolic_bp": 83.0,
+        "heart_rate": 75.9,
+        "spo2": 96.4,
+        "weight_kg": 78.1,
+        "glucose_mgdl": 127.6
+      }
+    }
+  ],
+  "note": "Simulated RPM time-series \u2014 educational use only, not real patient data."
+}

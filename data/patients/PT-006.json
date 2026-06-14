@@ -1,0 +1,42 @@
+{
+  "patient_id": "PT-006",
+  "demographics": {
+    "name": "Patricia Endo",
+    "age": 62,
+    "sex": "F",
+    "dob": "1963-12-08",
+    "weight_kg": 74.5,
+    "height_cm": 158
+  },
+  "problem_list": [
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2016-09", "status": "active"},
+    {"icd10": "N18.3", "label": "Chronic kidney disease, stage 3", "onset": "2022-04", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Metformin", "dose": "500mg", "frequency": "BID", "prescribed": "2016-10", "status": "active"},
+    {"name": "Jardiance (Empagliflozin)", "dose": "10mg", "frequency": "QD", "prescribed": "2022-05", "status": "active"},
+    {"name": "Insulin glargine", "dose": "20 units", "frequency": "QHS", "prescribed": "2023-01", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "HbA1c",
+      "date": "2025-11-05",
+      "results": {"HbA1c": 8.1}
+    },
+    {
+      "test": "BMP",
+      "date": "2025-11-05",
+      "results": {"Na": 137, "K": 4.5, "Cr": 1.6, "BUN": 28, "eGFR": 42, "Glucose": 148}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-11-05",
+      "provider": "Dr. T. Nguyen",
+      "note": "S: Diabetes and CKD co-management. Patient reports glucose levels running higher. States she forgot to take her evening insulin several times last week. O: BP 148/88. Weight stable. Cr 1.6 (stable). A: T2DM poorly controlled. Insulin non-adherence identified. CKD stage 3 stable. P: Patient education on insulin importance. Simplify regimen if possible. Renal diet referral."
+    }
+  ],
+  "allergies": [
+    {"allergen": "Iodinated contrast", "reaction": "Nephrotoxicity risk", "severity": "high"}
+  ]
+}

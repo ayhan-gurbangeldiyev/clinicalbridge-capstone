@@ -1,0 +1,22 @@
+{
+  "patient_id": "PT-005",
+  "timestamp": "2026-01-22T10:00:00",
+  "device_type": "glucometer",
+  "measured_values": {
+    "systolic_bp": 136.2,
+    "diastolic_bp": 85.1,
+    "heart_rate": 74.0,
+    "spo2": 97.9,
+    "weight_kg": 98.2,
+    "glucose_mgdl": 214.0
+  },
+  "alert_category": "URGENT",
+  "baseline_thresholds": {
+    "systolic_bp": [110.0, 150.0],
+    "diastolic_bp": [70.0, 95.0],
+    "heart_rate": [50.0, 100.0],
+    "spo2": [93.0, 100.0],
+    "weight_kg": [93.0, 103.0],
+    "glucose_mgdl": [80.0, 180.0]
+  }
+}

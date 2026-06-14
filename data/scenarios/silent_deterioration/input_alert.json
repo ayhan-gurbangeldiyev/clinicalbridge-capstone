@@ -1,0 +1,22 @@
+{
+  "patient_id": "PT-008",
+  "timestamp": "2026-01-28T06:00:00",
+  "device_type": "smart_scale",
+  "measured_values": {
+    "systolic_bp": 120.3,
+    "diastolic_bp": 74.1,
+    "heart_rate": 78.0,
+    "spo2": 96.8,
+    "weight_kg": 74.4,
+    "glucose_mgdl": 99.0
+  },
+  "alert_category": "URGENT",
+  "baseline_thresholds": {
+    "systolic_bp": [95.0, 140.0],
+    "diastolic_bp": [60.0, 90.0],
+    "heart_rate": [50.0, 100.0],
+    "spo2": [93.0, 100.0],
+    "weight_kg": [69.7, 72.7],
+    "glucose_mgdl": [70.0, 140.0]
+  }
+}

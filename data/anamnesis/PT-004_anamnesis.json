@@ -1,0 +1,28 @@
+{
+  "patient_id": "PT-004",
+  "chief_complaint": "Feeling great, just checking in as scheduled.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-10",
+      "entry": "No issues. Blood pressure at home is usually around 125/80. Taking all my meds."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "98%",
+    "notes": "Very consistent. Takes medications at 8am every day. Sets phone alarm."
+  },
+  "lifestyle": {
+    "diet": "Mediterranean style, low sodium, lots of vegetables",
+    "exercise": "Jogs 3x per week, yoga on weekends",
+    "alcohol": "None",
+    "smoking": "Never",
+    "stress": "Low - recently retired"
+  },
+  "family_history": {
+    "hypertension": false,
+    "diabetes": false,
+    "heart_disease": false,
+    "stroke": false
+  },
+  "patient_concerns": "No concerns. Interested in continuing current lifestyle approach."
+}

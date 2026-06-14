@@ -1,0 +1,32 @@
+{
+  "patient_id": "PT-006",
+  "chief_complaint": "Feet feel tingly sometimes and I'm very thirsty all the time.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-07",
+      "entry": "Tingling in my toes again, especially at night. Drinking a lot of water but still feel thirsty."
+    },
+    {
+      "date": "2026-01-10",
+      "entry": "Blood sugar was 195 before breakfast. That seems too high. I've been eating sweets at work, they keep bringing in donuts."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "70%",
+    "notes": "Reports forgetting evening dose frequently. Does not carry medications when away from home."
+  },
+  "lifestyle": {
+    "diet": "Difficult to control at work - lots of snacking, high sugar foods",
+    "exercise": "Minimal - mostly sedentary",
+    "alcohol": "3-5 drinks per week",
+    "smoking": "Current smoker, 10 cigarettes per day",
+    "stress": "High - financial stress"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": true,
+    "heart_disease": true,
+    "stroke": false
+  },
+  "patient_concerns": "Scared about the tingling - heard that's related to diabetes complications. Wants to know if it's serious."
+}

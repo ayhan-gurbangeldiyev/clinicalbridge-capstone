@@ -1,0 +1,40 @@
+{
+  "patient_id": "PT-007",
+  "demographics": {
+    "name": "Carlos Mendez",
+    "age": 49,
+    "sex": "M",
+    "dob": "1976-06-30",
+    "weight_kg": 102.0,
+    "height_cm": 175
+  },
+  "problem_list": [
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2019-11", "status": "active"},
+    {"icd10": "E66.9", "label": "Obesity", "onset": "2019-11", "status": "active"},
+    {"icd10": "K76.0", "label": "Non-alcoholic fatty liver disease", "onset": "2020-05", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Metformin", "dose": "1000mg", "frequency": "BID", "prescribed": "2019-12", "status": "active"},
+    {"name": "Semaglutide", "dose": "1mg weekly", "frequency": "weekly", "prescribed": "2023-03", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "HbA1c",
+      "date": "2025-10-10",
+      "results": {"HbA1c": 6.8}
+    },
+    {
+      "test": "LFTs",
+      "date": "2025-10-10",
+      "results": {"ALT": 38, "AST": 32, "AlkPhos": 88}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-10",
+      "provider": "Dr. S. Patel",
+      "note": "S: Diabetes follow-up. Patient doing well on semaglutide. Weight down 8 kg over past year. Reports nausea when he misses the weekly injection timing. O: BP 128/82. Weight 102 kg. A: T2DM improving, HbA1c at 6.8. Weight loss ongoing. P: Continue current regimen. RPM glucose monitoring - alert threshold set at >200 mg/dL. Encourage continued dietary adherence."
+    }
+  ],
+  "allergies": []
+}

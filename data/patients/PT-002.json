@@ -1,0 +1,44 @@
+{
+  "patient_id": "PT-002",
+  "demographics": {
+    "name": "Margaret Liu",
+    "age": 71,
+    "sex": "F",
+    "dob": "1954-09-28",
+    "weight_kg": 67.0,
+    "height_cm": 162
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2015-03", "status": "active"},
+    {"icd10": "I25.10", "label": "Atherosclerotic heart disease", "onset": "2021-08", "status": "active"},
+    {"icd10": "M81.0", "label": "Osteoporosis", "onset": "2019-05", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Amlodipine", "dose": "5mg", "frequency": "QD", "prescribed": "2015-04", "status": "active"},
+    {"name": "Losartan", "dose": "50mg", "frequency": "QD", "prescribed": "2021-09", "status": "active"},
+    {"name": "Aspirin", "dose": "81mg", "frequency": "QD", "prescribed": "2021-08", "status": "active"},
+    {"name": "Calcium + Vitamin D", "dose": "600mg/800IU", "frequency": "BID", "prescribed": "2019-06", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-11-01",
+      "results": {"Na": 141, "K": 3.9, "Cr": 0.9, "BUN": 16, "Glucose": 98}
+    },
+    {
+      "test": "CBC",
+      "date": "2025-11-01",
+      "results": {"WBC": 6.8, "Hgb": 12.4, "Hct": 37.2, "Plt": 218}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-11-01",
+      "provider": "Dr. A. Reyes",
+      "note": "S: Routine hypertension follow-up. Patient reports blood pressure has been well-controlled at home. No new symptoms. O: BP 128/78, HR 68. EKG unchanged. A: Hypertension well controlled on current dual therapy. P: Continue current medications. RPM monitoring ongoing. Return in 3 months."
+    }
+  ],
+  "allergies": [
+    {"allergen": "Sulfonamides", "reaction": "Rash", "severity": "mild"}
+  ]
+}

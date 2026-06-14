@@ -1,0 +1,41 @@
+{
+  "patient_id": "PT-005",
+  "chief_complaint": "Blood sugar was high for a few days but seems better now. Just got back from vacation.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-20",
+      "entry": "First day of cruise vacation. Buffet food everywhere, tried to be careful but ate more carbs than usual."
+    },
+    {
+      "date": "2026-01-21",
+      "entry": "Blood sugar 210 this morning. Probably all the desserts yesterday. Still taking metformin."
+    },
+    {
+      "date": "2026-01-22",
+      "entry": "Still elevated. Eating out every meal on this ship. Hard to control what's in the food."
+    },
+    {
+      "date": "2026-01-23",
+      "entry": "Back to normal food at home. Blood sugar already coming back down to 145."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "95%",
+    "notes": "Very consistent with medications. Never misses doses. The spike was purely dietary during vacation."
+  },
+  "lifestyle": {
+    "diet": "Usually careful with carbohydrates. Vacation was an exception.",
+    "exercise": "Walks daily, 20-30 minutes",
+    "alcohol": "Occasional wine with dinner",
+    "smoking": "Never",
+    "stress": "Low - recently retired teacher"
+  },
+  "family_history": {
+    "hypertension": false,
+    "diabetes": true,
+    "heart_disease": false,
+    "stroke": false,
+    "notes": "Father and one sibling have Type 2 diabetes"
+  },
+  "patient_concerns": "Concerned about the glucose spike on vacation. Wants to know if he should have adjusted his medication during travel."
+}

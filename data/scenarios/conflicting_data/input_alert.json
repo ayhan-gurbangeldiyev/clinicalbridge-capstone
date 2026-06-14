@@ -1,0 +1,22 @@
+{
+  "patient_id": "PT-011",
+  "timestamp": "2026-01-20T06:00:00",
+  "device_type": "wrist_cuff",
+  "measured_values": {
+    "systolic_bp": 164.8,
+    "diastolic_bp": 101.2,
+    "heart_rate": 80.0,
+    "spo2": 97.4,
+    "weight_kg": 91.2,
+    "glucose_mgdl": 162.0
+  },
+  "alert_category": "URGENT",
+  "baseline_thresholds": {
+    "systolic_bp": [110.0, 145.0],
+    "diastolic_bp": [70.0, 95.0],
+    "heart_rate": [50.0, 100.0],
+    "spo2": [93.0, 100.0],
+    "weight_kg": [86.0, 96.0],
+    "glucose_mgdl": [80.0, 180.0]
+  }
+}

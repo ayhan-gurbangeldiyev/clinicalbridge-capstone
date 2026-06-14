@@ -1,0 +1,48 @@
+{
+  "patient_id": "PT-011",
+  "demographics": {
+    "name": "George Abrams",
+    "age": 61,
+    "sex": "M",
+    "dob": "1964-10-27",
+    "weight_kg": 91.0,
+    "height_cm": 176
+  },
+  "problem_list": [
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2013-05", "status": "active"},
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2016-03", "status": "active"},
+    {"icd10": "M54.5", "label": "Low back pain", "onset": "2022-09", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Valsartan", "dose": "160mg", "frequency": "QD", "prescribed": "2013-06", "status": "active"},
+    {"name": "Chlorthalidone", "dose": "25mg", "frequency": "QD", "prescribed": "2015-01", "status": "active"},
+    {"name": "Amlodipine", "dose": "10mg", "frequency": "QD", "prescribed": "2019-07", "status": "active"},
+    {"name": "Metformin", "dose": "1000mg", "frequency": "BID", "prescribed": "2016-04", "status": "active"},
+    {"name": "Glipizide", "dose": "10mg", "frequency": "QD", "prescribed": "2020-02", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-11-08",
+      "results": {"Na": 140, "K": 3.8, "Cr": 1.0, "BUN": 18, "Glucose": 124}
+    },
+    {
+      "test": "HbA1c",
+      "date": "2025-11-08",
+      "results": {"HbA1c": 7.8}
+    },
+    {
+      "test": "Glipizide drug level",
+      "date": "2025-11-08",
+      "results": {"note": "Sub-therapeutic levels detected; estimated adherence <50% based on refill records"}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-11-08",
+      "provider": "Dr. S. Patel",
+      "note": "S: Complex hypertension and diabetes management. Patient reports taking all medications as prescribed. States he never misses doses. O: BP 158/96 despite triple antihypertensive therapy. Weight 91 kg. HbA1c 7.8 despite self-reported compliance. A: Uncontrolled hypertension and suboptimal diabetes control despite patient-reported full adherence. Lab data suggests possible non-adherence. Discrepancy between self-report and objective measures. P: Non-confrontational medication adherence discussion. Consider pill organizer. Pharmacy refill check. Follow up in 4 weeks."
+    }
+  ],
+  "allergies": []
+}

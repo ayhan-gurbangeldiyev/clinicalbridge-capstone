@@ -1,0 +1,44 @@
+{
+  "patient_id": "PT-009",
+  "demographics": {
+    "name": "Franklin Torres",
+    "age": 68,
+    "sex": "M",
+    "dob": "1957-08-03",
+    "weight_kg": 84.0,
+    "height_cm": 172
+  },
+  "problem_list": [
+    {"icd10": "I50.9", "label": "Heart failure, unspecified", "onset": "2020-04", "status": "active"},
+    {"icd10": "I21.9", "label": "Acute myocardial infarction (remote, 2020)", "onset": "2020-04", "status": "historical"},
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2012-01", "status": "active"},
+    {"icd10": "E11.9", "label": "Type 2 diabetes mellitus", "onset": "2015-06", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Furosemide", "dose": "20mg", "frequency": "QD", "prescribed": "2020-05", "status": "active"},
+    {"name": "Metoprolol succinate", "dose": "25mg", "frequency": "QD", "prescribed": "2020-05", "status": "active"},
+    {"name": "Ramipril", "dose": "5mg", "frequency": "QD", "prescribed": "2020-05", "status": "active"},
+    {"name": "Metformin", "dose": "500mg", "frequency": "BID", "prescribed": "2015-07", "status": "active"},
+    {"name": "Aspirin", "dose": "81mg", "frequency": "QD", "prescribed": "2020-04", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-10-30",
+      "results": {"Na": 138, "K": 4.3, "Cr": 1.2, "BUN": 24, "eGFR": 58}
+    },
+    {
+      "test": "BNP",
+      "date": "2025-10-30",
+      "results": {"BNP": 280}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-30",
+      "provider": "Dr. T. Nguyen",
+      "note": "S: HF management. Patient doing well. Active, walks 20 minutes daily. No dyspnea at rest or with moderate exertion. O: BP 122/76. HR 64. Weight 84 kg (dry weight). No edema. A: HFrEF compensated. P: Continue current regimen. RPM weight alert threshold: >2 kg above 84 kg in 3 days."
+    }
+  ],
+  "allergies": []
+}

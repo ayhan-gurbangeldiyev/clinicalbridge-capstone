@@ -1,0 +1,39 @@
+{
+  "patient_id": "PT-001",
+  "chief_complaint": "I've been having bad headaches and my neck feels stiff. I feel flushed a lot.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-10",
+      "entry": "Skipped my pill again this morning. The cough it gives me is so annoying, especially at night."
+    },
+    {
+      "date": "2026-01-12",
+      "entry": "Headache came back. Took some ibuprofen but it didn't really help. Haven't taken my blood pressure pill in about two weeks now."
+    },
+    {
+      "date": "2026-01-14",
+      "entry": "Neck is stiff and I feel hot. My wife said I look red in the face. Still not taking that pill."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "0%",
+    "stopped_date": "approximately 2026-01-01",
+    "reason": "Persistent dry cough - patient reports cough started within weeks of starting Lisinopril and has not resolved",
+    "notes": "Patient has not informed doctor yet. Trying to manage without medication."
+  },
+  "lifestyle": {
+    "diet": "High sodium - lots of processed food, patient reports eating out frequently",
+    "exercise": "Minimal - sedentary desk job, no regular exercise",
+    "alcohol": "Occasional, 2-3 drinks per week",
+    "smoking": "Never",
+    "stress": "High - recent work deadlines"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": false,
+    "heart_disease": true,
+    "stroke": false,
+    "notes": "Father had heart attack at 61"
+  },
+  "patient_concerns": "Worried about the cough being a sign of something serious. Does not want to take medication that makes him cough. Wants to know if there are alternatives."
+}

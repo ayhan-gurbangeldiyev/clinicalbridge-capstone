@@ -1,0 +1,41 @@
+{
+  "patient_id": "PT-008",
+  "chief_complaint": "Feeling a bit more short of breath than usual going up the stairs. Shoes feel tight.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-18",
+      "entry": "Noticed my shoes feel tighter than last week. Had to use the wider pair."
+    },
+    {
+      "date": "2026-01-20",
+      "entry": "Short of breath going up to the second floor. Not terrible, but more than usual. Ankles look a little puffy."
+    },
+    {
+      "date": "2026-01-22",
+      "entry": "Scale says 73.1 kg. I was 71.2 kg about two weeks ago. Is that normal?"
+    },
+    {
+      "date": "2026-01-24",
+      "entry": "74.4 kg today. Ankles definitely more swollen. Still taking all my medications every day."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "100%",
+    "notes": "Very careful with medications since last hospitalization. Takes Furosemide twice daily as prescribed. Has pill organizer checked weekly by daughter."
+  },
+  "lifestyle": {
+    "diet": "Low sodium diet, follows hospital discharge guidelines",
+    "exercise": "Short walks, limited by breathlessness",
+    "alcohol": "None",
+    "smoking": "Never",
+    "stress": "Moderate - lives alone, some anxiety about health"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": false,
+    "heart_disease": true,
+    "stroke": false,
+    "notes": "Sister had heart failure"
+  },
+  "patient_concerns": "Very worried about swelling - last time this happened she was hospitalized. Wants to know if she needs to go to the ER."
+}

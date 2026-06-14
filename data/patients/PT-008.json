@@ -1,0 +1,51 @@
+{
+  "patient_id": "PT-008",
+  "demographics": {
+    "name": "Eleanor Bassett",
+    "age": 74,
+    "sex": "F",
+    "dob": "1951-02-17",
+    "weight_kg": 71.2,
+    "height_cm": 160
+  },
+  "problem_list": [
+    {"icd10": "I50.9", "label": "Heart failure, unspecified", "onset": "2022-01", "status": "active"},
+    {"icd10": "I48.91", "label": "Atrial fibrillation", "onset": "2021-09", "status": "active"},
+    {"icd10": "I10", "label": "Essential hypertension", "onset": "2010-03", "status": "active"},
+    {"icd10": "N18.3", "label": "Chronic kidney disease, stage 3", "onset": "2022-06", "status": "active"}
+  ],
+  "medications": [
+    {"name": "Furosemide", "dose": "40mg", "frequency": "QD", "prescribed": "2022-02", "status": "active"},
+    {"name": "Carvedilol", "dose": "12.5mg", "frequency": "BID", "prescribed": "2022-02", "status": "active"},
+    {"name": "Lisinopril", "dose": "5mg", "frequency": "QD", "prescribed": "2022-02", "status": "active"},
+    {"name": "Apixaban", "dose": "5mg", "frequency": "BID", "prescribed": "2021-10", "status": "active"},
+    {"name": "Spironolactone", "dose": "25mg", "frequency": "QD", "prescribed": "2022-06", "status": "active"}
+  ],
+  "labs": [
+    {
+      "test": "BMP",
+      "date": "2025-10-22",
+      "results": {"Na": 136, "K": 4.6, "Cr": 1.5, "BUN": 32, "eGFR": 44}
+    },
+    {
+      "test": "BNP",
+      "date": "2025-10-22",
+      "results": {"BNP": 420}
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-10-22",
+      "provider": "Dr. A. Reyes",
+      "note": "S: Heart failure follow-up. Patient reports feeling well. Denies dyspnea at rest. Reports walking to mailbox without significant shortness of breath. Denies orthopnea. Weight has been stable per her report. O: BP 118/72. HR 76 irregular (Afib). JVD absent. Lungs clear. No peripheral edema noted on exam. Weight 71.2 kg (baseline). A: HFrEF - clinically compensated. Afib rate controlled. P: Continue current medications. Daily weight monitoring via RPM - alert if weight increases more than 2 kg above dry weight of 71.2 kg within 3 days. Follow up in 6 weeks."
+    },
+    {
+      "date": "2025-07-14",
+      "provider": "Dr. A. Reyes",
+      "note": "S: Acute decompensated heart failure. Patient presented with 4 kg weight gain over 5 days, worsening dyspnea, bilateral ankle swelling. Had stopped furosemide 2 weeks ago thinking she was doing well. O: BP 142/88. HR 88 irregular. Bibasilar crackles. 2+ pitting edema bilateral ankles. Weight 75.5 kg. A: ADHF, likely precipitated by diuretic non-compliance. P: IV furosemide, resume oral regimen. Patient counseled extensively on daily weights and medication importance."
+    }
+  ],
+  "allergies": [
+    {"allergen": "Amiodarone", "reaction": "Thyroid dysfunction history", "severity": "moderate"}
+  ]
+}

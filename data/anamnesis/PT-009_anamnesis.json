@@ -1,0 +1,29 @@
+{
+  "patient_id": "PT-009",
+  "chief_complaint": "Doing well. Walking daily as instructed. No major complaints.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-10",
+      "entry": "Walked 25 minutes today. Felt fine. Weight is steady at 84 kg."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "95%",
+    "notes": "Good adherence. Uses weekly pill organizer. Wife helps remind him."
+  },
+  "lifestyle": {
+    "diet": "Low sodium, low fat diet. Following cardiac rehab guidelines.",
+    "exercise": "Daily walking 20-25 minutes, slowly increasing",
+    "alcohol": "None since heart attack",
+    "smoking": "Quit at time of heart attack in 2020",
+    "stress": "Moderate - managing well with support group"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": true,
+    "heart_disease": true,
+    "stroke": false,
+    "notes": "Brother had MI at 58"
+  },
+  "patient_concerns": "Wants to know when he can increase exercise intensity. Hopeful about recovery."
+}

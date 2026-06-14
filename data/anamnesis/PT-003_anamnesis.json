@@ -1,0 +1,33 @@
+{
+  "patient_id": "PT-003",
+  "chief_complaint": "Blood pressure has been running high lately. Some dizziness when standing up fast.",
+  "symptom_diary": [
+    {
+      "date": "2026-01-09",
+      "entry": "Felt dizzy this morning when I got out of bed. Blood pressure machine at home said 162/95."
+    },
+    {
+      "date": "2026-01-11",
+      "entry": "Still dizzy at times. Taking my medication but maybe not at the same time every day."
+    }
+  ],
+  "medication_adherence": {
+    "self_reported_compliance": "75%",
+    "notes": "Inconsistent timing - sometimes takes in morning, sometimes evening. Reports forgetting on busy days."
+  },
+  "lifestyle": {
+    "diet": "Heavy meals, high carbohydrate, struggles with portion control",
+    "exercise": "Occasional walks, no structured exercise",
+    "alcohol": "2-4 drinks per week",
+    "smoking": "Former smoker, quit 5 years ago",
+    "stress": "Moderate - caring for elderly parent"
+  },
+  "family_history": {
+    "hypertension": true,
+    "diabetes": true,
+    "heart_disease": false,
+    "stroke": true,
+    "notes": "Mother had stroke at 70"
+  },
+  "patient_concerns": "Worried about stroke risk given family history. Wants to understand why BP is still high despite medication."
+}
